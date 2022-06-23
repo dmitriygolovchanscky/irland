@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scaleble=0"
+  />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@7/swiper-bundle.min.css?_v=20220623171455"
+  />
+  <link rel="stylesheet" href="css/brands.css?_v=20220623171455" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20220623171455" />
+  <title>Главная</title>
+</head>
+
+
+  <body>
+    <div class="wrapper">
+      <header class="header lock-padding ismain main">
+  <div class="header__container">
+    <div class="header__body main">
+      <a href="index.html" class="header__logo">
+        <div class="header__logo__text main">Trip&Mind</div>
+      </a>
+      <div class="header__burger main">
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <nav class="header__menu">
+    <div class="close__menu"><span></span></div>
+    <ul class="header__list">
+      <li>
+        <a href="index.html" class="header__link link-current">Главная</a>
+      </li>
+      <li>
+        <a href="trips.html" class="header__link @@current-trips">Наши туры</a>
+      </li>
+      <li>
+        <a href="reviews.html" class="header__link @@current-reviews">Отзывы</a>
+      </li>
+      <li>
+        <a href="contacts.html" class="header__link @@current-contacts">Контакты</a>
+      </li>
+      <li>
+        <a href="" class="header__link fab fa-twitter"></a>
+        <a href="" class="header__link fab fa-instagram"></a>
+        <a href="" class="header__link fab fa-facebook"></a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+      <div class="full"></div>
+      <main class="content">
+        <section class="head">
+          <div class="head__container">
+            <div class="head__body">
+              <div class="head__main">
+                <div class="head__textfield">
+                  <div class="head__title">Открой для себя Новую Ирландию</div>
+                  <div class="head__text">
+                    Авторские туры по экзотическим уголкам от Ивана Иванова
+                  </div>
+                </div>
+                <div class="head__buttons">
+                  <a href="#popup-form" class="head__button head__button__left popup__link">
+                    <div class="head__button__left__text head__button__text">
+                      Оставить заявку
+                    </div>
+                  </a>
+                  <a href="" class="head__button head__button__right">
+                    <div class="head__button__right__img"></div>
+                    <div class="head__button__right__text head__button__text">
+                      Посмотрите видео-отчет 2018-2019
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="head__bottom">
+                <div class="head__social">
+                  <div class="head__social__icons">
+                    <a href="" class="head__social__item fab fa-twitter"></a>
+                    <a href="" class="head__social__item fab fa-instagram"></a>
+                    <a href="" class="head__social__item fab fa-facebook"></a>
+                  </div>
+                </div>
+                <div class="head__items">
+                  <a href="#description-1" class="head__item popup__link">
+                    <div class="head__item__number">02</div>
+                    <div class="head__item__bottom">
+                      <div class="head__item__text">Сказочные Доломиты</div>
+                      <div class="head__item__arrow"></div>
+                    </div>
+                  </a>
+                  <a href="#description-2" class="head__item popup__link">
+                    <div class="head__item__number">03</div>
+                    <div class="head__item__bottom">
+                      <div class="head__item__text">Неизведанная Норвегия</div>
+                      <div class="head__item__arrow"></div>
+                    </div>
+                  </a>
+                  <a href="#description-3" class="head__item popup__link">
+                    <div class="head__item__number">04</div>
+                    <div class="head__item__bottom">
+                      <div class="head__item__text">Водопады Ирландии</div>
+                      <div class="head__item__arrow"></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="directions">
+          <div class="directions__container">
+            <div class="directions__body">
+              <div class="directions__img">
+                <picture><source srcset="img/directions-image.webp" type="image/webp"><img src="img/directions-image.png" alt="Ирландия" /></picture>
+              </div>
+              <div class="directions__img__small">
+                <picture><source srcset="img/directions-image-small.webp" type="image/webp"><img src="img/directions-image-small.png" alt="Ирландия" /></picture>
+              </div>
+              <div class="directions__column">
+                <div class="directions__title">
+                  Посмотрите все направления туров
+                </div>
+                <div class="directions__text">
+                  Берега океанов и дикие пляжи с редкими породами деревьев.
+                  Местная архитектура и первозданный вид дикой природы.
+                </div>
+                <a href="trips.html" class="directions__button">
+                  <div class="directions__button__text">Смотреть все</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="application">
+          <div class="application__container">
+            <div class="application__body">
+              <div class="application__textfield">
+                <div class="application__title">
+                  Оставьте заявку на бесплатную консультацию
+                </div>
+                <div class="application__text">
+                  Мы перезвоним вам в ближайшее время
+                </div>
+              </div>
+              <div class="application__form">
+                <form action="#" id="form" class="form__body">
+						<div class="form__item">
+							<input id="formName" type="text" name="name" autocomplete="off" placeholder="Ваше имя" class="form__input _req"></input>
+						</div>
+						<div class="form__item">
+							<input id="formTel" type="tel" name="tel" placeholder="+7 (___) ___-__-__" class="form__input tel _req" data-tel-input maxlength="18" autocomplete="off"></input>
+						</div>
+						<button type="submit" class="form__button">Отправить</button>
+					 </form>
+              </div>
+            </div>
+          </div>
+        </section>
+		  <section class="members">
+			<div class="members__container">
+			  <div class="members__body">
+				 <div class="members__img">
+					<picture><source srcset="img/members-image.webp" type="image/webp"><img src="img/members-image.png" alt="Ирландия" /></picture>
+				 </div>
+				 <div class="members__img__small">
+					<picture><source srcset="img/members-image-small.webp" type="image/webp"><img src="img/members-image-small.png" alt="Ирландия" /></picture>
+				 </div>
+				 <div class="members__column">
+					<div class="members__title">
+						Что пишут участники
+						наших путешествий
+					</div>
+					<div class="members__text">
+						87% участников приходит по личной
+						рекомендации от друзей. А каждый 4-ый
+						путешествует с нами больше двух раз!
+					</div>
+					<a href="reviews.html" class="members__button">
+					  <div class="members__button__text">Читать отзывы</div>
+					</a>
+				 </div>
+			  </div>
+			</div>
+		 </section>
+      </main>
+      <footer class="footer lock-padding">
+  <div class="footer__container">
+    <div class="footer__body">
+      <div class="footer__logo">
+        <div class="footer__logo__text">Trip&Mind</div>
+      </div>
+      <a href="" class="footer__text">Политика конфидациальности</a>
+      <a href="" class="footer__text"
+        >Согласие на обработку персональных данных</a
+      >
+      <div class="footer__icons">
+        <a class="footer__link fab fa-twitter" href=""></a>
+        <a class="footer__link fab fa-instagram" href=""></a>
+        <a class="footer__link fab fa-facebook-f" href=""></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+	 <div id="description-1" class="popup">
+  <div class="popup__body">
+    <div class="description__content popup__content">
+      <div class="description__body description__1">
+        <div class="description__spoiler pc">
+          <div class="description__spoiler__item">
+            <div class="description__spoiler__title">Сказочные Доломиты</div>
+            <div class="description__spoiler__body">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+              sem. Nulla consequat massa quis enim.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="description__spoiler mobile">
+        <div class="description__spoiler__item">
+          <div class="description__spoiler__title">
+            <p>Сказочные Доломиты</p>
+          </div>
+          <div class="description__spoiler__body">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim.
+          </div>
+        </div>
+      </div>
+      <a href="#" class="description__close close-popup">✕</a>
+    </div>
+  </div>
+</div>
+<div id="description-2" class="popup">
+  <div class="popup__body">
+    <div class="description__content popup__content">
+      <div class="description__body description__2">
+        <div class="description__spoiler pc">
+          <div class="description__spoiler__item">
+            <div class="description__spoiler__title">Неизведанная Норвегия</div>
+            <div class="description__spoiler__body">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+              sem. Nulla consequat massa quis enim.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="description__spoiler mobile">
+        <div class="description__spoiler__item">
+          <div class="description__spoiler__title">
+            <p>Неизведанная Норвегия</p>
+          </div>
+          <div class="description__spoiler__body">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim.
+          </div>
+        </div>
+      </div>
+      <a href="#" class="description__close close-popup">✕</a>
+    </div>
+  </div>
+</div>
+<div id="description-3" class="popup">
+  <div class="popup__body">
+    <div class="description__content popup__content">
+      <div class="description__body description__3">
+        <div class="description__spoiler pc">
+          <div class="description__spoiler__item">
+            <div class="description__spoiler__title">Водопады Ирландии</div>
+            <div class="description__spoiler__body">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+              sem. Nulla consequat massa quis enim.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="description__spoiler mobile">
+        <div class="description__spoiler__item">
+          <div class="description__spoiler__title">
+            <p>Водопады Ирландии</p>
+          </div>
+          <div class="description__spoiler__body">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim.
+          </div>
+        </div>
+      </div>
+      <a href="#" class="description__close close-popup">✕</a>
+    </div>
+  </div>
+</div>
+<div id="popup-form" class="popup">
+  <div class="popup__body">
+    <div class="form__content popup__content">
+		<div class="form__title">Оставьте заявку</div>
+		<form action="#" id="form-popup" class="form__body__popap">
+			<div class="form__item__popap">
+				<input id="formName" type="text" name="name" autocomplete="off" placeholder="Ваше имя" class="form__input__popap _req_popup"></input>
+			</div>
+			<div class="form__item__popap">
+				<input id="formTel" type="tel" name="tel" placeholder="+7 (___) ___-__-__" class="form__input__popap tel _req_popup" data-tel-input maxlength="18" autocomplete="off"></input>
+			</div>
+			<button type="submit" class="form__button__popap">Отправить</button>
+		 </form>
+		 <a href="#" class="form__popup__close close-popup">
+			<span></span>
+		 </a>
+	 </div>
+  </div>
+</div>
+
+	 <script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20220623171455"></script>
+    <script src="js/app.min.js?_v=20220623171455"></script>
+  </body>
+</html>
